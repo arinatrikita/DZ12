@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    box-sizing: border-box;
+}
+.block{
+    background-color:#af2024 ;
+    height: 40px;
+    max-width: 100%;
+    margin: auto;
+}
+section{
+    width: 100%;
+    margin: auto;
+    }
+.logo{
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+body .seti{
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 264px;
+    z-index: 5;
+
+}
+body .social_1{
+    background-color:  #850409;
+    width: 50px;
+    height:50px;
+    display: block; ;
+    text-align: center;
+    padding-top: 8px;
+}
+body .social_2{
+    background-color: #98161b;
+    width: 50px;
+    height:50px;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+
+body i{
+    color: white;
+    font-size: 35px;
+    line-height: 43px;
+}
+.container-2{
+    width: 710px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: -40px;
+    margin-top: -20px;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #98161b;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.container{
+    background-image: url('../images/fon.png');
+    background-size: 100% 800px;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+.video_block_title{
+    background-color: #98161b;
+    line-height: 1;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Arvo', serif;
+    padding: 1.25em 1.25em;
+}
+.video_block{
+    padding: 65px 75px;
+}
+.video{
+    height: 350px;
+    width: 100%;
+    background-color: #c9c9c9;
+    position: relative;
+}
+.video_name{
+    padding-top: 30px;
+    font-size: 13px;
+    color:#98161b;
+    font-family: 'Arvo', serif;
+}
+.date{
+    color: #6e7279;
+    font-weight: 400;
+}
+.separator{
+    border-bottom: 4px dotted #98161b;
+    width: 45px;
+    margin: 20px 0;
+}
+.video_description{
+    font-size: 12px;
+    color: #98161b;
+    font-family: 'Arvo', serif;
+    line-height: 20px;
+}
+.main{
+    background-color: #3f0002;
+}
+footer{
+    background-color: #323232;
+    height: 450px;
+}
+/*font-family: 'Arvo', serif;*/
